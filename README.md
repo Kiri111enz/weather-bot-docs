@@ -1,40 +1,24 @@
-# Documentation Template created by Diplodoc
+## Описание
 
-Features:
+Документация проекта [weather-bot](https://github.com/kiri111enz/weather-bot).  
+Сделана на основе платформы [diplodoc](https://diplodoc.com).
 
-- initial project structure
-- dev server with hot reload
-- codespaces support
-- vscode tutorial via code tours
+## Зависимости
 
-## Initial project structure
+Основные зависимости проекта:
+* **@doc-tools/docs** - базовый пакет платформы _diplodoc_
+* **chokidar** - мимнмалистичная библиотека для отслеживания изменений в файлах
+* **express** - бэкенд-фреймворк для [Node.js](https://nodejs.org)
+* **glob** - библиотека для получения файлов по паттерну по аналогии с shell
+* **lodash** - библиотека с множеством полезных утилит
+* **open** - библиотека для открытия ссылок/файлов/исполняемых файлов
+* **parse5** - билиотека для работы с html в Node.js
+* **serve-static** - библиотека для выдачи с бэкенда статики
 
-Initiatl project structure with basic content can be found within your public github repo "diplodoc-example/docs" 
+## Запуск
 
-## Usage
+Для запуска проекта нужно:  
+```npm start``` - запустить пересборку документации и ее хостинг
 
-### Run locally by cloning repo:
-
-```
-> git clone git@github.com:diplodoc-platform/documentation-template.git
-
-> cd documentation-template
-
-> npm start
-
-> listening on 0.0.0.0:8000
-
-```
-now you have development server with hot reload runing and serving built documentation on `0.0.0.0:8000`
-
-### github codespaces
-
-press Use this template -> Open in a codespace
-
-![open in a codespace](images/open-in-a-codespace.jpeg)
-
-wait for the development server startup
-
-enjoy developing documentation with html result preview in split view
-
-![codespaces project](images/codespaces-project.jpeg)
+При первом запуске нужно установить зависимости:  
+```npm install```
